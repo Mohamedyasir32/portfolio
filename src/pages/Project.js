@@ -57,7 +57,7 @@ const projects = [
     tech: "React, CSS, JavaScript",
     image: project5,
     github: "#",
-    live: "#",
+    live: "https://portfolio-pink-rho-79.vercel.app/",
     details: "#",
   },
 ];
