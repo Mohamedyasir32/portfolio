@@ -15,7 +15,7 @@ const projects = [
     image: project1,
     github: "https://github.com/Mohamedyasir32/Simple-E-Commerce-Website",
     live: "#",
-    details: "#",
+    details: "/",
   },
     
     
@@ -27,7 +27,7 @@ const projects = [
     image: project2,
     github: "https://github.com/Mohamedyasir32/To-doList",
     live: "#",
-    details: "#",
+    details: "/",
   },
   
   {
@@ -38,7 +38,7 @@ const projects = [
     image: project4,
     github: "https://github.com/Mohamedyasir32/WeatherWeb",
     live: "https://weather-web-66b8.vercel.app/",
-    details: "#",
+    details: "/",
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ const projects = [
     image: project3,
     github: "https://github.com/Mohamedyasir32/web-scientific-calculator",
     live: "#",
-    details: "#",
+    details: "/",
   },
     {
     id: 5,
@@ -58,7 +58,7 @@ const projects = [
     image: project5,
     github: "#",
     live: "https://portfolio-pink-rho-79.vercel.app/",
-    details: "#",
+    details: "/",
   },
 ];
 

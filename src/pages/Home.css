@@ -1,5 +1,16 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body{
-background:#0d0d0d;
+  background:#0d0d0d;
 }
 .home {
   display: flex;
@@ -11,8 +22,15 @@ background:#0d0d0d;
   color: #fff;
 }
 
+@media (max-width: 480px) {
+  .home {
+    padding: 40px 5%;
+  }
+}
+
 .content {
   max-width: 550px;
+  width: 100%;
 }
 
 .title {
@@ -65,6 +83,7 @@ background:#0d0d0d;
 .buttons {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -118,6 +137,7 @@ background:#0d0d0d;
 
 .profile-img img {
   width: 330px;
+  max-width: 100%;
   border-radius: 20px;
   border: 3px solid #00eaff;
   box-shadow: 0 0 25px #00eaff50;
@@ -213,11 +233,24 @@ background:#0d0d0d;
   }
 
   .title {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .role {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .profile-img img {
+    width: 220px;
   }
 }
 .projects {
@@ -296,12 +329,24 @@ background:#0d0d0d;
 }
 
 @media (max-width: 480px) {
+  .projects {
+    padding: 50px 5%;
+  }
+
   .projects-heading {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .project-card {
-    padding: 20px;
+    padding: 18px;
+  }
+
+  .project-card h2 {
+    font-size: 20px;
+  }
+
+  .project-card p {
+    font-size: 14px;
   }
 }
 .skills {
@@ -373,12 +418,25 @@ background:#0d0d0d;
 
 /* ---------- Responsive ---------- */
 @media (max-width: 480px) {
+  .skills {
+    padding: 50px 5%;
+  }
+
   .skills-heading {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .skill-card {
-    padding: 20px;
+    padding: 18px;
+    margin: 5px;
+  }
+
+  .skill-card h2 {
+    font-size: 18px;
+  }
+
+  .skill-card ul li {
+    font-size: 14px;
   }
 }
 
@@ -475,11 +533,29 @@ background:#0d0d0d;
 
 /* Responsive */
 @media (max-width: 480px) {
+  .contact {
+    padding: 50px 5%;
+  }
+
   .contact-heading {
-    font-size: 30px;
+    font-size: 28px;
+  }
+
+  .contact-text {
+    font-size: 16px;
   }
 
   .info-box {
     width: 100%;
+    padding: 15px 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  .send-btn {
+    font-size: 15px;
   }
 }

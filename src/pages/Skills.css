@@ -3,6 +3,7 @@
   background: #0d0d0d;
   color: #fff;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .skills-heading {
@@ -28,6 +29,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .skill-card {
@@ -74,19 +81,35 @@
 
 /* Responsive */
 @media (max-width: 480px) {
+  .skills {
+    padding: 50px 5%;
+  }
+
   .skills-heading {
-    font-size: 30px;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .skills-intro {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .skills-grid {
+    gap: 20px;
   }
 
   .skill-card {
-    padding: 20px;
+    padding: 18px;
   }
 
   .skill-card h2 {
-    font-size: 20px;
+    font-size: 19px;
+    margin-bottom: 12px;
   }
 
   .skill-card ul li {
-    font-size: 14px;
+    font-size: 13px;
+    margin-bottom: 8px;
   }
 }
