@@ -14,7 +14,7 @@ const projects = [
     tech: "React, Stripe API, Node.js",
     image: project1,
     github: "https://github.com/Mohamedyasir32/Simple-E-Commerce-Website",
-    live: "#",
+    live: "https://apsshop.netlify.app/",
     details: "/",
   },
     
@@ -26,7 +26,7 @@ const projects = [
     tech: "React, Node.js, MongoDB",
     image: project2,
     github: "https://github.com/Mohamedyasir32/To-doList",
-    live: "#",
+    live: "https://todo-listyasir.netlify.app/",
     details: "/",
   },
   
@@ -47,7 +47,7 @@ const projects = [
     tech: "HTML, CSS, JavaScript",
     image: project3,
     github: "https://github.com/Mohamedyasir32/web-scientific-calculator",
-    live: "#",
+    live: "https://webscientific-calculator.netlify.app/",
     details: "/",
   },
     {
